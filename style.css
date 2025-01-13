@@ -86,4 +86,25 @@ footer a {
 
 .btn:hover {
    background-color: #2ecc71;
+}@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .hero img {
+        width: 80%;
+    }
+    .benefits ul {
+        flex-direction: column;
+    }
+    .benefits ul li{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .how-it-works img {
+        width: 80%;
+    }
 }
